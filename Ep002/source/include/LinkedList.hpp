@@ -9,7 +9,7 @@ private:
   public:
     int value;
     Node *next;
-    Node(int value);
+    explicit Node(int value);
   };
 
   Node *head;
@@ -17,7 +17,7 @@ private:
   int length;
 
 public:
-  LinkedList(int value);
+  explicit LinkedList(int value);
   ~LinkedList();
   void printList();
   void getHead();

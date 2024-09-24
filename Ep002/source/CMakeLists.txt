@@ -8,7 +8,8 @@ project(HelloWorld
 # file(GLOB_RECURSE SRC_FILES src/*.cpp)
 # add_executable(excute main.cpp ${SRC_FILES})
 
-# Target
+# ********** Another option ***********
+# List your sources (the most preferred way)
 add_executable(excute 
                 main.cpp
                 src/Node.cpp 

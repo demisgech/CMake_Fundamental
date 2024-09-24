@@ -5,6 +5,6 @@ class Node {
 public:
   int value;
   Node *next;
-  Node(int value);
+  explicit Node(int value);
 };
 #endif //!__NODE__H__

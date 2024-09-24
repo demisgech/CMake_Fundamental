@@ -4,5 +4,5 @@ project(HelloApp
         DESCRIPTION "Hello app"
         LANGUAGES CXX)
 
-
+# Target
 add_executable(HelloApp main.cpp)
